@@ -1,7 +1,0 @@
-[flake8]
-exclude =
-    .git,
-    lib,
-    scripts,
-    treelstm/__pycache__,
-max-line-length = 100
