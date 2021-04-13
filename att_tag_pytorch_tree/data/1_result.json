@@ -1,0 +1,162 @@
+[
+    {
+        "text": "pseudo_root x + y = 30 30 * 1.62 = 1.12 * x + 2.20 * y\n",
+        "best_answer": "ellen wishes to mix candy worth $ 1.12 per pound with candy worth $ 2.20 per pound to form 30 pounds of a mixture worth $ 1.62 per pound . how many pounds of the more expensive candy should she use ? </S>\n",
+        "pre_answer": "is the the the the of the the the of the the the of the the the of the the the of the the the of the the the of the the the of the the the of the the the of the the the of the the the of the the the of the the the of the the the of the the the of the the the of the the the of the the the of the the the of the the the of the the the of the the the of the the the of the the\n"
+    },
+    {
+        "text": "( 56 / 69 ) * ( 55 / 68 ) * ( 54 / 67 ) = x\n",
+        "best_answer": "in a shipment of 69 vials , only 13 do not have hairline cracks . if you randomly select 3 vials from the shipment , what is the probability that all 3 of the selected vials have hairline cracks ? </S>\n",
+        "pre_answer": "what is is the the the the of the the the of the the the of the the the of the the the of the the the of the the the of the the the of the the the of the the the of the the the of the the the of the the the of the the the of the the the of the the the of the the the of the the the of the the the of the the the of the the the of the the the of the the the of the the the of\n"
+    },
+    {
+        "text": "70000 / 280000 = x\n",
+        "best_answer": "70 , 000 is how many percent of 280 , 000 ? </S>\n",
+        "pre_answer": "is is the intersected the requiring boys victor requiring boys victor requiring boys victor requiring andwiches boys boys victor requiring boys victor requiring boys victor requiring andwiches boys boys victor requiring boys victor requiring boys victor requiring andwiches boys boys victor requiring boys victor requiring boys victor requiring andwiches boys boys victor requiring boys victor requiring boys victor requiring andwiches boys boys victor requiring boys victor requiring boys victor requiring andwiches boys boys victor requiring boys victor requiring boys victor requiring andwiches boys boys victor requiring boys victor requiring boys victor requiring andwiches boys boys victor requiring boys victor requiring\n"
+    },
+    {
+        "text": "pseudo_root 6 / 40 = x y * x = 9\n",
+        "best_answer": "in a class of 40 students , on average , 6 will be left - handed . if a class includes 9 \" <UNK> , \" how many students would you estimate are in the class ? </S>\n",
+        "pre_answer": "what is is the the of the the of the the of the the of the the of the the of the the of the the of the the of the the of the the of the the of the the of the the of the the of the the of the the of the the of the the of the the of the the of the the of the the of the the of the the of the the of the the of the the of the the of the the of the the of the the of the\n"
+    },
+    {
+        "text": "x / 40 + x / 30 + x / 24 = 1\n",
+        "best_answer": "mark can type a 20 page document in 40 minutes , susan can type it in 30 minutes , and john can type it in 24 minutes . working together , how much time does it take them to type the same document ? </S>\n",
+        "pre_answer": "what is the of the the of the the of the the of the the of the the of the the of the the of the the of the the of the the of the the of the the of the the of the the of the the of the the of the the of the the of the the of the the of the the of the the of the the of the the of the the of the the of the the of the the of the the of the the of the the of the the of\n"
+    },
+    {
+        "text": "x = 3000 * ( 1 + 0.06 / 2 ) ^ 8\n",
+        "best_answer": "use the compound interest formula to compute the total amount after $ 3000 is invested at 6% over 4 years compounded semiannually . then compute the interest earned . </S>\n",
+        "pre_answer": "what is the the the the the the of the the the the the of the the the the the of the the the the the of the the the the the of the the the the the of the the the the the of the the the the the of the the the the the of the the the the the of the the the the the of the the the the the of the the the the the of the the the the the of the the the the the of the the the the the of the\n"
+    },
+    {
+        "text": "pseudo_root 75 / ( 1 / 4 ) = x x * 5 = y\n",
+        "best_answer": "a train travels 75 feet in 1 / 4 second . at this same speed , how many feet will it travel in 5 seconds ? </S>\n",
+        "pre_answer": "is the the the the the of the the the the of the the the the of the the the the of the the the the of the the the the of the the the the of the the the the of the the the the of the the the the of the the the the of the the the the of the the the the of the the the the of the the the the of the the the the of the the the the of the the the the of the the the the of the the the\n"
+    },
+    {
+        "text": "x / 6 = 10 / 4\n",
+        "best_answer": "a tree casts a shadow 10 feet long . a 6 - ft . man casts a shadow 4 ft . long . the triangle formed by the tree and its shadow is similar to the triangle formed by the man and his shadow . how tall is the tree ? </S>\n",
+        "pre_answer": "is the the the the of the the the the of the the the the of the the the the of the the the the of the the the the of the the the the of the the the the of the the the the of the the the the of the the the the of the the the the of the the the the of the the the the of the the the the of the the the the of the the the the of the the the the of the the the the of the the the the\n"
+    },
+    {
+        "text": "260 * ( 1 - 0.1 ) = x\n",
+        "best_answer": "my brother works at myer and i want to buy an ipod touch there and they charge $ 260 but i can get a 10% discount with my brothers myer card . how much will the ipod now be if the original price is $ 260 and i get 10% off ? </S>\n",
+        "pre_answer": "what is the the the of the the of the the of the the of the the of the the of the the of the the of the the of the the of the the of the the of the the of the the of the the of the the of the the of the the of the the of the the of the the of the the of the the of the the of the the of the the of the the of the the of the the of the the of the the of the the of the\n"
+    },
+    {
+        "text": "60 * ( 1 - 0.25 ) = x\n",
+        "best_answer": "if a sweater that was selling for $ 60.00 was discounted 25% , what is its new selling price ? </S>\n",
+        "pre_answer": "what is the the of the the of the the of the the of the the of the the of the the of the the of the the of the the of the the of the the of the the of the the of the the of the the of the the of the the of the the of the the of the the of the the of the the of the the of the the of the the of the the of the the of the the of the the of the the of the the of the the\n"
+    },
+    {
+        "text": "0.08 * ( x ) = 1730\n",
+        "best_answer": "when the cost of a car is multiplied by 0.08 the result is $ 1730 . find the cost of the car . </S>\n",
+        "pre_answer": "what is is the the of the the of the the of the the of the the of the the of the the of the the of the the of the the of the the of the the of the the of the the of the the of the the of the the of the the of the the of the the of the the of the the of the the of the the of the the of the the of the the of the the of the the of the the of the the of the the of the\n"
+    },
+    {
+        "text": "8 ^ 3 = x\n",
+        "best_answer": "what is 8 to the power of three in standard form ? </S>\n",
+        "pre_answer": "thing the the is the the the the the of the the the the the of the the the the the of the the the the the of the the the the the of the the the the the of the the the the the of the the the the the of the the the the the of the the the the the of the the the the the of the the the the the of the the the the the of the the the the the of the the the the the of the the the the the of\n"
+    },
+    {
+        "text": "5.5 / 8.25 = x / 18\n",
+        "best_answer": "a girl is 5 1 / 2 ft tall casts a shadow 8 1 / 4 ft long . she stands next to a statue that has 18 ft long shadow . how tall is the statue ? </S>\n",
+        "pre_answer": "is the of the independence is the of the independence is the of the independence is the of the independence is the of the independence is the of the independence is the of the independence is the of the independence is the of the independence is the of the independence is the of the independence is the of the independence is the of the independence is the of the independence is the of the independence is the of the independence is the of the independence is the of the independence is the of the independence is the of the independence\n"
+    },
+    {
+        "text": "pseudo_root 12 * 4 = x 1200 / x = y\n",
+        "best_answer": "according to the directions on a can of frozen orange juice concentrate , 1 can of concentrate is to be mixed with 3 cans of water to make orange juice . how many 12 o z cans of concentrate are required to make 200 6 o z servings of orange juice . </S>\n",
+        "pre_answer": "is the the the the the of the the the the of the the the the the of the the the the the of the the the the the of the the the the the of the the the the the of the the the the the of the the the the the of the the the the the of the the the the the of the the the the the of the the the the the of the the the the the of the the the the the of the the the the the of the the the the\n"
+    },
+    {
+        "text": "30.00 * ( 1 - 0.25 ) = x\n",
+        "best_answer": "a sweater cost 30.00 it is ' on sale ' for a 25% discount . how much will the sweater cost ? </S>\n",
+        "pre_answer": "what is the of the of the of the of the of the of the of the of the of the of the of the of the of the of the of the of the of the of the of the of the of the of the of the of the of the of the of the of the of the of the of the of the of the of the of the of the of the of the of the of the of the of the of the of the of the of the of the of the of\n"
+    },
+    {
+        "text": "36 * 2 = x\n",
+        "best_answer": "what is 9 root 2 time 4 root 2 </S>\n",
+        "pre_answer": "what is the the the the of the the the the of the the the the of the the the the of the the the the of the the the the of the the the the of the the the the of the the the the of the the the the of the the the the of the the the the of the the the the of the the the the of the the the the of the the the the of the the the the of the the the the of the the the the of the the the\n"
+    },
+    {
+        "text": "pseudo_root y = 170 / 20 14 * y = x\n",
+        "best_answer": "20 cds cost $ 170 . how much would you spend for 14 cds ? </S>\n",
+        "pre_answer": "what is is the the of the the of the the of the of the the of the the of the the of the of the the of the the of the the of the of the the of the the of the the of the of the the of the the of the the of the of the the of the the of the the of the of the the of the the of the the of the of the the of the the of the the of the of the the of the the of the the of\n"
+    },
+    {
+        "text": "pseudo_root x = 2 * y y + 2 * y = 42\n",
+        "best_answer": "find two numbers whose sum is 42 and such that one is 2 times as large as the other ? </S>\n",
+        "pre_answer": "is the the the of the the of the the of the the of the the of the the of the the of the the of the the of the the of the the of the the of the the of the the of the the of the the of the the of the the of the the of the the of the the of the the of the the of the the of the the of the the of the the of the the of the the of the the of the the of the the of the the\n"
+    },
+    {
+        "text": "pseudo_root x + y = 12 30 * x + 60 * y = 10 * 6\n",
+        "best_answer": "rudy must play 12 commercials during his 1 - hour show . each commercial is either 30 seconds or 60 seconds long . if the total commercial time during that hour is 10 minutes , how many commercials of each type does rudy play ? </S>\n",
+        "pre_answer": "is the the the of the the of the the of the the of the the of the the of the the of the the of the the of the the of the the of the the of the the of the the of the the of the the of the the of the the of the the of the the of the the of the the of the the of the the of the the of the the of the the of the the of the the of the the of the the of the the of the the\n"
+    },
+    {
+        "text": "pseudo_root 325 / 5 = x 200 / 5 = y\n",
+        "best_answer": "a passenger train can travel 325 mi in the same time a freight train takes to travel 200 mi . if the speed of the passenger train is 25 mi / h faster than the speed of the freight train , find the speed of each </S>\n",
+        "pre_answer": "is the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the\n"
+    },
+    {
+        "text": "9 ^ 2 + 13 ^ 2 = x ^ 2\n",
+        "best_answer": "a wire reaches from the top of a 13 - meter telephone pole to a point on the ground 9 meters from the base of the pole . what is the length of the wire to the nearest tenth of a meter ? a <UNK> b 15.8 c 16.0 d 16.2 </S>\n",
+        "pre_answer": "the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the\n"
+    },
+    {
+        "text": "pseudo_root x = y + 12 68 / x = 37 / y\n",
+        "best_answer": "a <UNK> boat travels 12 km faster than a freighter . the <UNK> travels 68 k m in the same time that the freighter travels 37 km . find the speed of each boat .. </S>\n",
+        "pre_answer": "is the the the of the the the of the the of the the the of the the the of the the of the the the of the the the of the the of the the the of the the the of the the of the the the of the the the of the the of the the the of the the the of the the of the the the of the the the of the the of the the the of the the the of the the of the the the of the the the of the the of\n"
+    },
+    {
+        "text": "x = 5 / 9\n",
+        "best_answer": "i have dice with sides <UNK> 2 , 3 , 5 , 1 , 12 & 15 . what is the probability of the sum the 2 # s i roll will be even ? </S>\n",
+        "pre_answer": "what is the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the\n"
+    },
+    {
+        "text": "pseudo_root ( x / y ) * 100 = 66.7 x + 1 = y\n",
+        "best_answer": "ive been taking an online quiz that gives percentage right after answering each question . i answered a few correctly so percentage stayed 100 percent . i missed one and the percentage dropped to 66.7 percent correct . how many total questions did i answer ? </S>\n",
+        "pre_answer": "is the the of the the of the the of the the of the the of the the of the the of the the of the the of the the of the the of the the of the the of the the of the the of the the of the the of the the of the the of the the of the the of the the of the the of the the of the the of the the of the the of the the of the the of the the of the the of the the of the the of\n"
+    },
+    {
+        "text": "55 / 220 = x\n",
+        "best_answer": "55 is what percent of 220 ? </S>\n",
+        "pre_answer": "is is the the of the the of the the of the the of the the of the the of the the of the the of the the of the the of the the of the the of the the of the the of the the of the the of the the of the the of the the of the the of the the of the the of the the of the the of the the of the the of the the of the the of the the of the the of the the of the the of the the\n"
+    },
+    {
+        "text": "pseudo_root 240 * 130 = x x / 43560 = y\n",
+        "best_answer": "240 feet by 130 feet = how many acres ? </S>\n",
+        "pre_answer": "is the the the of the the the of the the the of the the the of the the the of the the the of the the the of the the the of the the the of the the the of the the the of the the the of the the the of the the the of the the the of the the the of the the the of the the the of the the the of the the the of the the the of the the the of the the the of the the the of the the the\n"
+    },
+    {
+        "text": "800 * 0.15 + x = ( 800 + x ) * 0.2\n",
+        "best_answer": "if 800 m l of a juice drink is 15% grape juice , how much grape juice should be added to make a drink that is 20% grape juice </S>\n",
+        "pre_answer": "what is the the of the the of the the of the the of the the of the the of the the of the the of the the of the the of the the of the the of the the of the the of the the of the the of the the of the the of the the of the the of the the of the the of the the of the the of the the of the the of the the of the the of the the of the the of the the of the the of the the\n"
+    },
+    {
+        "text": "90 / ( 5 + 7 ) = x\n",
+        "best_answer": "brian and alex shopped at a music store that sells all their used cds at once price and all their new cds at another price . brian bought 5 used cds and 3 new cds . alex bought 7 used cds and returned 3 new cds for a cash refund . together they left the store with 90 $ less than they had when they entered . how much was each used cd ? </S>\n",
+        "pre_answer": "what is the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the\n"
+    },
+    {
+        "text": "41 + 14 = x\n",
+        "best_answer": "what is the next number in this numerical sequence , 5 , 11 , 19 , 29 , 41 , ? ? </S>\n",
+        "pre_answer": "the of the the of the the of the the of the the of the the of the the of the the of the the of the the of the the of the the of the the of the the of the the of the the of the the of the the of the the of the the of the the of the the of the the of the the of the the of the the of the the of the the of the the of the the of the the of the the of the the of the the\n"
+    },
+    {
+        "text": "0.5 + 0.5 - 0.3 = x\n",
+        "best_answer": "at a particular college , the probability that a randomly selected student is studying a business degree is 0.5 , that they are male is 0.5 , and that they are a male business student is 0.3 . what is the probability that a randomly chosen student is either male or a business student or both ? </S>\n",
+        "pre_answer": "laid is is the the is the the of the the nonzero requiring moles republic thearea pass pass pass pass pass pass pass pass pass pass pass pass pass pass pass pass pass pass pass pass pass pass pass pass pass pass pass pass pass pass pass pass pass pass pass pass pass pass pass pass pass pass pass pass pass pass pass pass pass pass pass pass pass pass pass pass pass pass pass pass pass pass pass pass pass pass pass pass pass pass pass pass pass pass pass pass pass pass pass pass pass pass pass pass\n"
+    },
+    {
+        "text": "pseudo_root ( 260 + 50 ) = x ( 335 - 25 ) = y\n",
+        "best_answer": "an airplane travels 260 miles per hour into a 50 mile per hour head wind . on the return trip the wind has slowed to 25 miles per hour and the plane averages 335 miles per hour . how fast would the plane have gone with no wind on either leg ? </S>\n",
+        "pre_answer": "is is the the is the the of the the is the the of the the is the the of the the is the the of the the is the the of the the is the the of the the is the the of the the is the the of the the is the the of the the is the the of the the is the the of the the is the the of the the is the the of the the is the the of the the is the the of the the is the the of the the\n"
+    },
+    {
+        "text": "pseudo_root 3.50 * ( x ) + 5.50 * ( y ) = 52 x + y = 12\n",
+        "best_answer": "you want to buy some sunflowers and roses . sunflowers are $ 3.50 and roses are $ 5.50 . the total cost of 12 flowers is $ 52 dollars . how many of each did you purchase ? </S>\n",
+        "pre_answer": "is the the of the the of the the of the the of the the of the the of the the of the the of the the of the the of the the of the the of the the of the the of the the of the the of the the of the the of the the of the the of the the of the the of the the of the the of the the of the the of the the of the the of the the of the the of the the of the the of the the of\n"
+    }
+]

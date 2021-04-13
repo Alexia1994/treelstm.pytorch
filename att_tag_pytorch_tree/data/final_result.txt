@@ -1,0 +1,1 @@
+epoch 0 score 0 score_1 0 score_2 0 score_3 0 score_4 0 epoch 1 score 0 score_1 0 score_2 0 score_3 0 score_4 0 
