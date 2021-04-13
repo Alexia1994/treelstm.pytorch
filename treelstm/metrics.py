@@ -18,9 +18,12 @@ class Metrics():
         x = deepcopy(predictions)
         y = deepcopy(labels)
         return torch.mean((x - y) ** 2)
+<<<<<<< HEAD
     
     def sentiment_accuracy_score(self, predictions, labels, fine_gained = True):
         correct = (predictions==labels).sum()
         total = labels.size(0)
         acc = float(correct)/total
         return acc
+=======
+>>>>>>> 228a314add09fc7f39ea752aa7b1fcf756cfe277

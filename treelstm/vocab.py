@@ -83,4 +83,8 @@ class Vocab(object):
             if i == stop:
                 break
 
+<<<<<<< HEAD
         return labels
+=======
+        return labels
+>>>>>>> 228a314add09fc7f39ea752aa7b1fcf756cfe277

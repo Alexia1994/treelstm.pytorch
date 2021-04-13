@@ -146,7 +146,6 @@ def main():
         logger.debug('==> GLOVE vocabulary size: %d ' % glove_vocab.size())
         emb = torch.zeros(vocab.size(), glove_emb.size(1), dtype=torch.float, device=device)
         emb.normal_(0, 0.05)
-
         # zero out the embeddings for padding and other special words if they are absent in vocab
         for idx, item in enumerate([Constants.PAD_WORD, Constants.UNK_WORD,
                                     Constants.BOS_WORD, Constants.EOS_WORD]):

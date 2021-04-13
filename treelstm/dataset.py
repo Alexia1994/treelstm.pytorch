@@ -84,6 +84,7 @@ class SICKDataset(data.Dataset):
             labels = list(map(lambda x: float(x), f.readlines()))
             labels = torch.tensor(labels, dtype=torch.float, device='cpu')
         return labels
+<<<<<<< HEAD
 
 
 # Dataset class for Stanford Sentiment Treebank Dataset
@@ -207,3 +208,5 @@ class SSTDataset(data.Dataset):
             labels = map(lambda x: float(x), f.readlines())
             labels = torch.Tensor(labels)
         return labels
+=======
+>>>>>>> 228a314add09fc7f39ea752aa7b1fcf756cfe277

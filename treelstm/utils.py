@@ -67,6 +67,7 @@ def map_label_to_target(label, num_classes):
         target[0, floor-1] = ceil - label
         target[0, ceil-1] = label - floor
     return target
+<<<<<<< HEAD
 
 def map_label_to_target_sentiment(label, num_classes = 0, fine_grain = False):
     target = torch.LongTensor(1)
@@ -92,3 +93,5 @@ def print_tree(tree, level):
     print(line)
     for i in range(tree.num_children):
         print_tree(tree.children[i], level+1)
+=======
+>>>>>>> 228a314add09fc7f39ea752aa7b1fcf756cfe277

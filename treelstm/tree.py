@@ -4,8 +4,11 @@ class Tree(object):
         self.parent = None
         self.num_children = 0
         self.children = list()
+<<<<<<< HEAD
         self.gold_label = None
         self.output = None
+=======
+>>>>>>> 228a314add09fc7f39ea752aa7b1fcf756cfe277
 
     def add_child(self, child):
         child.parent = self
@@ -32,4 +35,8 @@ class Tree(object):
                     count = child_depth
             count += 1
         self._depth = count
+<<<<<<< HEAD
         return self._depth
+=======
+        return self._depth
+>>>>>>> 228a314add09fc7f39ea752aa7b1fcf756cfe277

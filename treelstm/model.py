@@ -1,8 +1,14 @@
 import torch
 import torch.nn as nn
 import torch.nn.functional as F
+<<<<<<< HEAD
 from . import Constants
 from . import utils
+=======
+
+from . import Constants
+
+>>>>>>> 228a314add09fc7f39ea752aa7b1fcf756cfe277
 
 # module for childsumtreelstm
 class ChildSumTreeLSTM(nn.Module):
@@ -16,6 +22,7 @@ class ChildSumTreeLSTM(nn.Module):
         self.fh = nn.Linear(self.mem_dim, self.mem_dim)
 
     def node_forward(self, inputs, child_c, child_h):
+<<<<<<< HEAD
         # dim = 0 means sum all rows up
         # 1 * mem_dim 
         child_h_sum = torch.sum(child_h, dim=0, keepdim=True)
@@ -25,21 +32,38 @@ class ChildSumTreeLSTM(nn.Module):
         i, o, u = torch.sigmoid(i), torch.sigmoid(o), torch.tanh(u)
         # repeat代表：行上复制len(child_h)次，列上复制1次
         f = torch.sigmoid(
+=======
+        child_h_sum = torch.sum(child_h, dim=0, keepdim=True)
+
+        iou = self.ioux(inputs) + self.iouh(child_h_sum)
+        i, o, u = torch.split(iou, iou.size(1) // 3, dim=1)
+        i, o, u = F.sigmoid(i), F.sigmoid(o), F.tanh(u)
+
+        f = F.sigmoid(
+>>>>>>> 228a314add09fc7f39ea752aa7b1fcf756cfe277
             self.fh(child_h) +
             self.fx(inputs).repeat(len(child_h), 1)
         )
         fc = torch.mul(f, child_c)
 
         c = torch.mul(i, u) + torch.sum(fc, dim=0, keepdim=True)
+<<<<<<< HEAD
         h = torch.mul(o, torch.tanh(c))
         return c, h
 
     def forward(self, tree, inputs):
         # 递归调用
+=======
+        h = torch.mul(o, F.tanh(c))
+        return c, h
+
+    def forward(self, tree, inputs):
+>>>>>>> 228a314add09fc7f39ea752aa7b1fcf756cfe277
         for idx in range(tree.num_children):
             self.forward(tree.children[idx], inputs)
 
         if tree.num_children == 0:
+<<<<<<< HEAD
             # 新建输入
             child_c = inputs[0].detach().new(1, self.mem_dim).fill_(0.).requires_grad_()
             child_h = inputs[0].detach().new(1, self.mem_dim).fill_(0.).requires_grad_()
@@ -49,6 +73,14 @@ class ChildSumTreeLSTM(nn.Module):
             child_c, child_h = zip(* map(lambda x: x.state, tree.children))
             child_c, child_h = torch.cat(child_c, dim=0), torch.cat(child_h, dim=0)
         # treee.state其实是根节点的c, h
+=======
+            child_c = inputs[0].detach().new(1, self.mem_dim).fill_(0.).requires_grad_()
+            child_h = inputs[0].detach().new(1, self.mem_dim).fill_(0.).requires_grad_()
+        else:
+            child_c, child_h = zip(* map(lambda x: x.state, tree.children))
+            child_c, child_h = torch.cat(child_c, dim=0), torch.cat(child_h, dim=0)
+
+>>>>>>> 228a314add09fc7f39ea752aa7b1fcf756cfe277
         tree.state = self.node_forward(inputs[tree.idx], child_c, child_h)
         return tree.state
 
@@ -68,7 +100,11 @@ class Similarity(nn.Module):
         abs_dist = torch.abs(torch.add(lvec, -rvec))
         vec_dist = torch.cat((mult_dist, abs_dist), 1)
 
+<<<<<<< HEAD
         out = torch.sigmoid(self.wh(vec_dist))
+=======
+        out = F.sigmoid(self.wh(vec_dist))
+>>>>>>> 228a314add09fc7f39ea752aa7b1fcf756cfe277
         out = F.log_softmax(self.wp(out), dim=1)
         return out
 
@@ -90,6 +126,7 @@ class SimilarityTreeLSTM(nn.Module):
         rstate, rhidden = self.childsumtreelstm(rtree, rinputs)
         output = self.similarity(lstate, rstate)
         return output
+<<<<<<< HEAD
 
 
 ################################################################
@@ -219,3 +256,5 @@ class SentimentTreeLSTM(nn.Module):
         tree.state, loss = self.n_arytreelstm(tree, embedded)
         out = tree.output
         return out, loss
+=======
+>>>>>>> 228a314add09fc7f39ea752aa7b1fcf756cfe277
